@@ -6,4 +6,39 @@
 body {
   font-size: var(--fontsize);
   color: var(--fontcolor);
+  font-family: Arial, sans-serif;
+  margin: 20px;
 }
+
+ h1 {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="number"], input[type="color"] {
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    input[type="submit"] {
+      padding: 8px 16px;
+      font-size: 14px;
+      background: #4CAF50;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background: #45a049;
+    }

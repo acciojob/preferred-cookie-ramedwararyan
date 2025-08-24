@@ -7,23 +7,23 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <form>
-      <label for="fontsize">Font Size:</label>
-      <input
-        type="number"
-        id="fontsize"
-        name="fontsize"
-        min="8"
-        max="72"
-        value="16"
-      />
-      <br />
-      <label for="fontcolor">Font Color:</label>
-      <input type="color" id="fontcolor" name="fontcolor" value="#000000" />
-      <br />
-      <input type="submit" value="Save" />
-    </form>
+	  <h1>Preferred Cookie: Customizable Font</h1>
+   <form id="preferences-form">
+    <div class="form-group">
+      <label for="fontsize">Font Size (8 - 72 px):</label>
+      <input type="number" id="fontsize" name="fontsize" min="8" max="72" value="16">
+    </div>
 
+    <div class="form-group">
+      <label for="fontcolor">Font Color:</label>
+      <input type="color" id="fontcolor" name="fontcolor" value="#000000">
+    </div>
+
+    <input type="submit" value="Save">
+  </form>
+  <p>
+    Try changing the font size and color, click "Save," then reload the page to see your preferences applied automatically.
+  </p>
     <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
